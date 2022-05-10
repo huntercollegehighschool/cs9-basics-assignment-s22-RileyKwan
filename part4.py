@@ -14,3 +14,11 @@ The area of the triangle is 12.0
 '''
 
 #start writing your code below
+number=int(input("Enter a positive integer"))
+if number < 0:
+    number=int(input("Try again. Enter a positive integer"))
+number1=int(input("Enter another positve integer"))
+if number1 < 0:
+   number1=int(input("Try again. Enter a positive integer"))
+if number > 0 and number1 >0:
+  print(("The area is", (number*number1)//2))
