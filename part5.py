@@ -13,3 +13,6 @@ Hello, Ash Ketchum
 '''
 
 #start writing your code below
+String1 = input("What is your first name") 
+String2 = input("What is your last name")
+print(String1+String2)
