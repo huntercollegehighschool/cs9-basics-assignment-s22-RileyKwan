@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "part1test1",
+      "setup": "",
+      "run": "python part1.py",
+      "input": "2\r\n3\r\n4\r\n5\r\n6",
+      "output": ".*20.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part2test1",
+      "setup": "",
+      "run": "python part2.py",
+      "input": "12",
+      "output": ".*120.*[\\r\\n].*111.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part3test1",
+      "setup": "",
+      "run": "python part3.py",
+      "input": "7\r\n11",
+      "output": ".*18.*[\\r\\n].*77.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part4test1",
+      "setup": "",
+      "run": "python part4.py",
+      "input": "8\r\n3",
+      "output": ".*12.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part5test1",
+      "setup": "",
+      "run": "python part5.py",
+      "input": "Yugi\r\nMoto",
+      "output": ".*Hello.*Yugi(\\s*)Moto.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
